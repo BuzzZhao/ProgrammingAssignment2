@@ -1,5 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+# set: set a vector for store matrix
+# get: get the matrix
+# setmatrix: get the inverse matrix
+# getmatrix: get the inverse matrix
 
  makeCacheMatrix <- function(x = matrix()) {
          m <- NULL
