@@ -1,9 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+# This function make a list with four functions for store the matrix and its inversed matrix
 # set: set a vector for store matrix
 # get: get the matrix
-# setmatrix: get the inverse matrix
-# getmatrix: get the inverse matrix
+# setmatrix: set the vector for store inverse matrix
+# getmatrix: store the inverse matrix
 
  makeCacheMatrix <- function(x = matrix()) {
          m <- NULL
@@ -25,6 +26,7 @@
  }
 
 ## Write a short comment describing this function
+# this function is making the inverse matrix of the matrix stored in makeCacheMatrix 
  cacheSolve <- function(x, ...) {
          ## Return a matrix that is the inverse of 'x'
          # get the solved matrix vector
